@@ -1,0 +1,122 @@
+.subheader {
+  display: flex;
+  justify-content: space-between;
+
+  &__name {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    margin: 0 2.5vw 0 2.5vw;
+
+    &__name--profile::after{
+      content: "•";
+    }
+  }
+
+  &__selects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+  }
+
+  &__print {
+    width: 84px;
+    height: 30px;
+    border-radius: 4px;
+    box-shadow: 0 24px 30px 0 rgba(0, 0, 0, 0.13);
+    border: solid 1px #f04e31;
+    background-color: #f04e31;
+    color: white;
+  }
+
+  &__date {
+    height: 30px;
+    border-radius: 4px;
+    font: inherit;
+    background-image: url("./assets/calendar-alt-regular.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    -webkit-inner-spin-button: none;
+
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  &__date::-webkit-inner-spin-button {
+    display: none;
+  }
+  &__date::-webkit-calendar-picker-indicator {
+    background: transparent;
+
+    &:hover {
+      background-color: lighten(#fff, 40%);
+      color: lighten(#fff, 10%);
+      cursor: pointer;
+    }
+  }
+}
+
+.subheader__dealer {
+  /* styling */
+  background-color: inherit;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  color: white;
+  // line-height: 1.5em;
+  padding: 0.5em 3.5em 0.3em 1em;
+
+  /* reset */
+
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image: linear-gradient(
+      45deg,
+      transparent 50%,
+      rgb(240, 78, 49) 50%
+    ),
+    linear-gradient(135deg, rgb(240, 78, 49) 50%, transparent 50%),
+    linear-gradient(to right, #404046, #404046);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+.subheader__staff {
+  display: inline-block;
+  // line-height: 1.5em;
+  padding: 0.3em 3.5em 0.1em 1em;
+
+  /* reset */
+
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image: linear-gradient(
+      45deg,
+      transparent 50%,
+      rgb(240, 78, 49) 50%
+    ),
+    linear-gradient(135deg, rgb(240, 78, 49) 50%, transparent 50%),
+    linear-gradient(to right, #fff, #fafafe);
+  background-position: calc(100% - 20px) calc(0.7em + 1px),
+    calc(100% - 15px) calc(0.7em + 1px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+}

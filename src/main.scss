@@ -1,0 +1,20 @@
+@import "./styles/partials/subheader";
+@import "./styles/partials/profile";
+@import "./styles/partials/snapshot";
+@import "./styles/partials/charts";
+@import "./styles/partials/summary.scss";
+@import "./styles/partials/headers";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #404046;
+  color: white;
+  font-family: "Apple SD Gothic Neo";
+}
+
+.dashboard {
+  display: flex;
+  flex-flow: row nowrap;
+}
+ 
