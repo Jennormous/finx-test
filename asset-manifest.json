@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/finx-test/static/css/main.e86dc0d7.chunk.css",
+    "main.js": "/finx-test/static/js/main.29f8b65c.chunk.js",
+    "main.js.map": "/finx-test/static/js/main.29f8b65c.chunk.js.map",
+    "runtime-main.js": "/finx-test/static/js/runtime-main.fd2ed814.js",
+    "runtime-main.js.map": "/finx-test/static/js/runtime-main.fd2ed814.js.map",
+    "static/js/2.f4f74cef.chunk.js": "/finx-test/static/js/2.f4f74cef.chunk.js",
+    "static/js/2.f4f74cef.chunk.js.map": "/finx-test/static/js/2.f4f74cef.chunk.js.map",
+    "index.html": "/finx-test/index.html",
+    "precache-manifest.259676ea68079a8e2c1ad4e60d559926.js": "/finx-test/precache-manifest.259676ea68079a8e2c1ad4e60d559926.js",
+    "service-worker.js": "/finx-test/service-worker.js",
+    "static/css/main.e86dc0d7.chunk.css.map": "/finx-test/static/css/main.e86dc0d7.chunk.css.map",
+    "static/js/2.f4f74cef.chunk.js.LICENSE": "/finx-test/static/js/2.f4f74cef.chunk.js.LICENSE",
+    "static/media/main.css": "/finx-test/static/media/calendar-alt-regular.a1557a26.svg",
+    "static/media/finex-logo.png": "/finx-test/static/media/finex-logo.06cba8e0.png",
+    "static/media/hondalogo.png": "/finx-test/static/media/hondalogo.8ea3c0bc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd2ed814.js",
+    "static/js/2.f4f74cef.chunk.js",
+    "static/css/main.e86dc0d7.chunk.css",
+    "static/js/main.29f8b65c.chunk.js"
+  ]
+}
