@@ -83,7 +83,9 @@
   border-radius: 4px;
   display: inline-block;
   color: white;
-  padding: 0.5em 3.5em 0.3em 1em;
+  line-height: 2em;
+  font: inherit;
+  padding: 0.5em 3.5em 0.5em 1em;
   /* reset */
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -98,6 +100,8 @@
 
 .subheader__staff {
   display: inline-block;
+  line-height: 1.5em;
+  font: inherit;
   padding: 0.3em 3.5em 0.1em 1em;
   /* reset */
   margin: 0;
