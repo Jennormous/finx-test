@@ -58,7 +58,8 @@ export default function Penetration() {
             label={renderCustomizedLabel}
             innerRadius={70}
             outerRadius={110}
-            fill='#8884d8'>
+            stroke={false}
+            >
             {data.map((entry, index) => (
               <Cell fill={COLORS[index % COLORS.length]} />
             ))}

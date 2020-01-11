@@ -7,7 +7,7 @@ margin-left: 2vw;
 height: 372px;
 
   &__card {
-    width: 11.28vw;
+    width: 150.5px;
     height: 180px;
     border-radius: 6px;
     background-color: #2b2b2b;
@@ -31,7 +31,7 @@ height: 372px;
     &--head{
       font-size: 1.875rem;
       padding-left: .75rem;
-      margin: 15px 0 0 0;
+      margin: 20px 0 0 0;
     }
 
     &--num {
@@ -39,8 +39,8 @@ height: 372px;
       flex-flow: row nowrap;
       justify-content: space-between;
       font-size: .75rem;
-      padding-left: .75rem;
-      padding-right: .75rem;
+      padding-left: 1rem;
+      padding-right: 2rem;
       
     }
 

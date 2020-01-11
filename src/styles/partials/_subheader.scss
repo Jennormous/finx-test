@@ -16,12 +16,13 @@
 
   &__selects {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    width: 50vw;
+    width: 55vw;
   }
 
   &__print {
+    font: inherit;
     width: 84px;
     height: 30px;
     border-radius: 4px;
@@ -32,6 +33,7 @@
   }
 
   &__date {
+    width: 207px;
     height: 30px;
     border-radius: 4px;
     font: inherit;
@@ -71,7 +73,7 @@
   color: white;
   line-height: 2em;
   font: inherit;
-  padding: 0.5em 3.5em 0.5em 1em;
+  padding: 0.5em 1.2em 0.5em 0.1em;
 
   /* reset */
 
@@ -96,6 +98,7 @@
 }
 
 .subheader__staff {
+  width: 207px;
   display: inline-block;
   line-height: 1.5em;
   font: inherit;

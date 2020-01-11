@@ -4,7 +4,7 @@ export default function Subheader() {
   return (
     <div className="subheader">
       <div className='subheader__name'>
-        <h3 className="subheader__name--profile">Profile</h3>
+        <h3 className="subheader__name--profile">Profile</h3><span>•</span>
         <select className='subheader__dealer'>
           <option className='subheader__dealer--option' selected="selected">Dealer</option>
           <option className='subheader__dealer--option'>Honda</option>

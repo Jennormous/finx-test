@@ -89,7 +89,7 @@ export default function Profits() {
     <div className='profits'>
       <h2 className='profits__title'>Average Profits</h2>
       <LineChart
-        width={900}
+        width={850}
         height={300}
         data={data}
         margin={{
@@ -103,8 +103,8 @@ export default function Profits() {
         <YAxis />
         <Tooltip />
         {/* <Legend /> */}
-        <Line dataKey='Used Car' stroke='#6dd400' activeDot={{ r: 4 }} />
-        <Line dataKey='New Car' stroke='#c30000' />
+    <Line dataKey='Used Car' dot={{stroke: '#6dd400', strokeWidth: 4, fill: '#6dd400' } } stroke='#6dd400' strokeWidth="3" activeDot={{ r: 4 }} />
+        <Line dataKey='New Car' stroke='#c30000' strokeWidth="3" dot= {{stroke: '#c30000', strokeWidth: 4, fill:'#c30000'}} />
       </LineChart>
     </div>
   );

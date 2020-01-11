@@ -6,7 +6,7 @@ const Snapshot = () => {
     columns: [
       {
         label: [
-          <h4 className=''>
+          <h4 className='snapshot__chart--thead'>
             Product Name <i class='fas fa-chevron-down orange'></i>
           </h4>
         ],
@@ -16,7 +16,7 @@ const Snapshot = () => {
       },
       {
         label: [
-          <h4 className=''>
+          <h4 className='snapshot__chart--thead'>
             Number Sold <i class='fas fa-chevron-down orange'></i>
           </h4>
         ],
@@ -26,7 +26,7 @@ const Snapshot = () => {
       },
       {
         label: [
-          <h4 className=''>
+          <h4 className='snapshot__chart--thead'>
             Penetration(%) <i class='fas fa-chevron-down orange'></i>
           </h4>
         ],
@@ -36,7 +36,7 @@ const Snapshot = () => {
       },
       {
         label: [
-          <h4 className=''>
+          <h4 className='snapshot__chart--thead'>
             Total <i class='fas fa-chevron-down orange'></i>
           </h4>
         ],
@@ -46,7 +46,7 @@ const Snapshot = () => {
       },
       {
         label: [
-          <h4 className=''>
+          <h4 className='snapshot__chart--thead'>
             Average Profit <i class='fas fa-chevron-down orange'></i>
           </h4>
         ],
