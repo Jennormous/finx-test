@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6ee73d8c221ad07e8a3f6cceaf332b1",
+    "revision": "a1b924e92ce6e5f4f259d103e4a40854",
     "url": "/finx-test/index.html"
   },
   {
-    "revision": "465a80ccbc93a56f9cf6",
-    "url": "/finx-test/static/css/main.b672a816.chunk.css"
+    "revision": "7464ca1862aa7da32959",
+    "url": "/finx-test/static/css/main.7ee847fc.chunk.css"
   },
   {
     "revision": "bfda92ef98811cab3c76",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/finx-test/static/js/2.f4f74cef.chunk.js.LICENSE"
   },
   {
-    "revision": "465a80ccbc93a56f9cf6",
-    "url": "/finx-test/static/js/main.1f04e686.chunk.js"
+    "revision": "7464ca1862aa7da32959",
+    "url": "/finx-test/static/js/main.d9bf113f.chunk.js"
   },
   {
     "revision": "a43959845ff8170c8f0a",
