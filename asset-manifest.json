@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/finx-test/static/css/main.7ee847fc.chunk.css",
-    "main.js": "/finx-test/static/js/main.d9bf113f.chunk.js",
-    "main.js.map": "/finx-test/static/js/main.d9bf113f.chunk.js.map",
+    "main.css": "/finx-test/static/css/main.75011a86.chunk.css",
+    "main.js": "/finx-test/static/js/main.acc85af4.chunk.js",
+    "main.js.map": "/finx-test/static/js/main.acc85af4.chunk.js.map",
     "runtime-main.js": "/finx-test/static/js/runtime-main.fd2ed814.js",
     "runtime-main.js.map": "/finx-test/static/js/runtime-main.fd2ed814.js.map",
     "static/js/2.f4f74cef.chunk.js": "/finx-test/static/js/2.f4f74cef.chunk.js",
     "static/js/2.f4f74cef.chunk.js.map": "/finx-test/static/js/2.f4f74cef.chunk.js.map",
     "index.html": "/finx-test/index.html",
-    "precache-manifest.cff8f165b0329c6e216bc7ff5d712dc2.js": "/finx-test/precache-manifest.cff8f165b0329c6e216bc7ff5d712dc2.js",
+    "precache-manifest.23b3617d73ede4c545ded41390e66191.js": "/finx-test/precache-manifest.23b3617d73ede4c545ded41390e66191.js",
     "service-worker.js": "/finx-test/service-worker.js",
-    "static/css/main.7ee847fc.chunk.css.map": "/finx-test/static/css/main.7ee847fc.chunk.css.map",
+    "static/css/main.75011a86.chunk.css.map": "/finx-test/static/css/main.75011a86.chunk.css.map",
     "static/js/2.f4f74cef.chunk.js.LICENSE": "/finx-test/static/js/2.f4f74cef.chunk.js.LICENSE",
     "static/media/main.css": "/finx-test/static/media/calendar-alt-regular.a1557a26.svg",
     "static/media/finex-logo.png": "/finx-test/static/media/finex-logo.06cba8e0.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.fd2ed814.js",
     "static/js/2.f4f74cef.chunk.js",
-    "static/css/main.7ee847fc.chunk.css",
-    "static/js/main.d9bf113f.chunk.js"
+    "static/css/main.75011a86.chunk.css",
+    "static/js/main.acc85af4.chunk.js"
   ]
 }
