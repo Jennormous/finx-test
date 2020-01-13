@@ -4,8 +4,8 @@
   border-radius: 6px;
   box-shadow: 0 24px 30px 0 rgba(0, 0, 0, 0.13);
   background-color: #2b2b2b;
-  width: 200px;
-  height: 372px;
+  width: 14.82vw;
+  height: 40.59 minvh;
   margin-left: 2vw;
 
   &__img {
@@ -21,6 +21,14 @@
    &--edit {
     color: #f04e31;
     text-decoration: underline;
+
+    font-size: 10.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
    }
   }
 

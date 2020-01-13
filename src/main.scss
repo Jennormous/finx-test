@@ -4,6 +4,7 @@
 @import "./styles/partials/charts";
 @import "./styles/partials/summary.scss";
 @import "./styles/partials/headers";
+@import "./styles/partials/_button";
 
 body {
   margin: 0;
@@ -16,5 +17,6 @@ body {
 .dashboard {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-between;
 }
  

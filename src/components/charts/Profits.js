@@ -84,13 +84,38 @@ const data = [
   }
 ];
 
+const CustomTooltip = ({ active, payload, label }) => {
+  if (active) {
+    return (
+      <div className='custom-tooltip'>
+        <p className='label'>{`$${payload[0].value}`}</p>
+        <p className='desc'>Finance</p>
+      </div>
+    );
+  }
+
+  return null;
+};
+
+function Button() {
+  return (
+    <div className='tri-state'>
+      <button className='tri-state__new'>New</button>
+      <button className='tri-state__used'>Used</button>
+      <button className='tri-state__total'>Total</button>
+    </div>
+  );
+}
+
 export default function Profits() {
   return (
     <div className='profits'>
+      <Button />
       <h2 className='profits__title'>Average Profits</h2>
       <LineChart
+      className="profits__chart"
         width={850}
-        height={300}
+        height={180}
         data={data}
         margin={{
           top: 5,
@@ -101,10 +126,20 @@ export default function Profits() {
         <CartesianGrid vertical={false} />
         <XAxis dataKey='name' />
         <YAxis />
-        <Tooltip />
-        {/* <Legend /> */}
-    <Line dataKey='Used Car' dot={{stroke: '#6dd400', strokeWidth: 4, fill: '#6dd400' } } stroke='#6dd400' strokeWidth="3" activeDot={{ r: 4 }} />
-        <Line dataKey='New Car' stroke='#c30000' strokeWidth="3" dot= {{stroke: '#c30000', strokeWidth: 4, fill:'#c30000'}} />
+        <Tooltip content={<CustomTooltip />} />
+        <Line
+          dataKey='Used Car'
+          dot={{ stroke: "#6dd400", strokeWidth: 4, fill: "#6dd400" }}
+          stroke='#6dd400'
+          strokeWidth='3'
+          activeDot={{ r: 4 }}
+        />
+        <Line
+          dataKey='New Car'
+          stroke='#c30000'
+          strokeWidth='3'
+          dot={{ stroke: "#c30000", strokeWidth: 4, fill: "#c30000" }}
+        />
       </LineChart>
     </div>
   );

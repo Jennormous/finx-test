@@ -1,0 +1,45 @@
+button {
+  background-color: #2b2b2b;
+  color: white;
+}
+
+.tri-state {
+position: absolute;
+top: 5%;
+left: 10%;
+
+  &__new {
+    width: 47px;
+    height: 19px;
+    border-top-left-radius:6px;
+    border-bottom-left-radius: 6px;
+    border: solid 1px #f04e31;
+
+    &:focus {
+      background-color: #f04e31;
+    }
+  }
+
+  &__used {
+    width: 47px;
+    height: 19px;
+    border: solid 1px #f04e31;
+
+    &:focus {
+      background-color: #f04e31;
+    }
+    }
+
+
+  &__total {
+    width: 47px;
+    height: 19px;
+    border-top-right-radius:6px;
+    border-bottom-right-radius: 6px;
+    border: solid 1px #f04e31;
+
+    &:focus {
+      background-color: #f04e31;
+    }
+  }
+}

@@ -38,28 +38,33 @@ const renderCustomizedLabel = ({
 export default function Penetration() {
   return (
     <div className='pene'>
-      <section className="pene__list">
+      <section className='pene__list'>
         <ul>
-          <li className="pene__list--item">Lease</li>
-          <li className="pene__list--item">Subprime</li>
-          <li className="pene__list--item">Cash</li>
-          <li className="pene__list--item">Fleet</li>
+          <li className='pene__list--item'>ALL</li>
+          <li className='pene__list--item'>Lease</li>
+          <li className='pene__list--item'>Subprime</li>
+          <li className='pene__list--item'>Cash</li>
+          <li className='pene__list--item'>Fleet</li>
+          <li className='pene__list--item'>Total</li>
+          <li className='pene__list--item'>Total</li>
         </ul>
       </section>
       <div className='pie'>
-        <h3 className="pie__title">Penetration</h3>
-        <PieChart width={250} height={300}>
+        <h3 className='pie__title'>Penetration</h3>
+        <PieChart
+          className='pie__pie'
+          width={250}
+          height={250}
+          viewbox='0 0 100 100'>
           <Pie
-          className="pie__pie"
             data={data}
             cx={115}
-            cy={110}
+            cy={100}
             labelLine={false}
             label={renderCustomizedLabel}
-            innerRadius={70}
-            outerRadius={110}
-            stroke={false}
-            >
+            innerRadius={50}
+            outerRadius={90}
+            stroke={false}>
             {data.map((entry, index) => (
               <Cell fill={COLORS[index % COLORS.length]} />
             ))}
