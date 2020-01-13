@@ -6,7 +6,7 @@ const Snapshot = () => {
     columns: [
       {
         label: [
-          <h4 className='snapshot__chart--thead'>
+          <h4 className='snapshot__chart--thead one'>
             Product Name <i class='fas fa-chevron-down orange'></i>
           </h4>
         ],
